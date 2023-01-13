@@ -4,6 +4,7 @@
         animation: Move ease-in-out 25s infinite !important ;
         position: absolute;
         display: flex;
+        
     }
 
     .pslide{
@@ -11,6 +12,11 @@
         position: relative;
         overflow: hidden;
     }
+}
+
+.ulElement{
+    padding: 0 ;
+
 }
 
 @keyframes Move {
