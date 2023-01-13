@@ -1,0 +1,66 @@
+nav{
+    border-bottom: 1px solid #39353e;
+}
+
+
+
+.right svg{
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.right{
+    list-style: none;
+    margin: 0;
+    transition: all .6s ease-in-out ;
+}
+
+.right li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    transition: .7s;
+}
+
+.right li a:hover ,
+.right li a:focus , 
+.drop a:focus ,
+.drop a:hover{
+    color: #f7631b;
+}
+
+button{
+    border: 1px solid white !important;
+}
+
+button:focus{
+    outline: 2px solid white !important;
+    box-shadow: none !important;
+}
+button svg{
+    color: white;
+}
+
+.drop a{
+    padding-bottom: 0;
+    padding-top: 3px !important;
+}
+
+.uldropdown{
+    overflow: auto;
+    max-width: 200px !important;
+}
+

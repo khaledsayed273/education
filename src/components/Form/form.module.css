@@ -1,0 +1,57 @@
+.parentForm{
+    background-image: url("https://educational-template.vercel.app/images/search-for-course.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    color: white;
+    z-index: 0;
+    height: auto;
+    margin-top: 90px;
+}
+
+.right{
+    background-color: rgba(255, 255, 255, .1);
+    
+}
+
+.parentForm p{
+    color: #777;
+}
+
+.parentForm svg{
+    color: #f7631b;
+    font-size: 2rem;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(4, 9, 30, .8);
+    z-index: -1;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 40px 60px;
+}
+
+.form button{
+    background-color: #f7631b;
+    color: white;
+    font-weight: bold;
+    padding: 12px;
+    border: 0 !important;
+    outline: 0;
+}
+
+.form button:hover{
+    border: 1px solid white !important;
+}

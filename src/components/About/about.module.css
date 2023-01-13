@@ -1,0 +1,64 @@
+@media (max-width: 992px) {
+    .end{
+        padding: 50px !important;
+    }
+    
+}
+
+.about{
+    background-image: url("https://educational-template.vercel.app/images/instructor.png");
+    position: relative;
+    z-index: 0;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.overlay{
+    z-index: -1;
+    background-color: rgba(4, 9, 30, .8);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.button{
+    border: none !important;
+    padding: 15px 30px;
+    font-weight: 600;
+    font-size: 13px;
+    background-color: #f7631b;
+    transition: .5s;
+    color: black;
+}
+
+.button:hover{
+    border: 1px solid white !important;
+}
+
+.blog{
+    margin-top: 50px;
+}
+
+.end{
+    background-color: #f7631b;
+    padding: 50px;
+    margin-top: 80px;
+}
+
+
+.button2{
+    background-color: #FFF;
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 200px;
+    height: 50px;
+    font-weight: 700;
+    color: #222;
+    transition: .5s;
+    margin: 10px 0;
+}

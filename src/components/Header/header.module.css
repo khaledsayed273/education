@@ -1,0 +1,21 @@
+header  {
+    background-color: rgb(4, 9, 30);
+    color: white;
+    padding: 4px;
+    height: auto;
+}
+
+.left svg{
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.left svg:hover{
+    transform: rotate(360deg);
+    color: #f7631b;
+}
+
+.right span{
+    font-size: 14px;
+}

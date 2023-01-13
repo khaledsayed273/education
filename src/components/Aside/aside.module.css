@@ -1,0 +1,68 @@
+@media (min-width: 992px) {
+    .ulElement{
+        width: 133% !important;
+        animation: Move ease-in-out 25s infinite !important ;
+        position: absolute;
+        display: flex;
+    }
+
+    .pslide{
+        height: 500px;
+        position: relative;
+        overflow: hidden;
+    }
+}
+
+@keyframes Move {
+    0%{
+        left : 0%
+    }
+    35%{
+        left : 0%
+    }
+    40%{
+        left: -100%;
+    }
+    65%{
+        left: -100%;
+    }
+    70%{
+        left : -166%
+    }
+    95%{
+        left : -166%
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+
+.card{
+    box-shadow: 1px 1px 1px 2px rgba(160, 155, 155, 0.562);
+    border-radius: 15px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.card img{
+    transition: 900ms;
+}
+
+.card:hover img{
+    transform: scale(1.2) rotate(5deg);
+}
+
+.over {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+    position: absolute;
+    top: 0;
+}
+
+.child{
+    bottom: 10px;
+    padding: 5px;
+    color: white;
+}
