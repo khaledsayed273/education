@@ -108,7 +108,7 @@ function Aside() {
                                                 </div>
                                             </div>
                                             <div className="card-body p-3">
-                                                <h5 className="card-title mb-2">Card title</h5>
+                                                <h5 className="card-title mb-2 text-dark">Card title</h5>
                                                 <p className="card-text">{item.title}</p>
                                             </div>
                                         </div>

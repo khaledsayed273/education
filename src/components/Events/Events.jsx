@@ -113,7 +113,7 @@ function Events() {
                                        </div>
                                     </div>
                                     <div className="card-body p-3">
-                                       <h5 className="card-title mb-2">{item.cardTitle}</h5>
+                                       <h5 className="card-title mb-2 text-dark">{item.cardTitle}</h5>
                                        <p className={style.paragraph}>{item.title}</p>
                                     </div>
                                  </div>
