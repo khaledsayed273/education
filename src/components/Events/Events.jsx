@@ -59,7 +59,6 @@ function Events() {
          msg: 15,
          salary: "140$"
       },
-
    ]
 
 
@@ -70,11 +69,10 @@ function Events() {
          ul.current.style.left = "0%"
       }
       else if (Number(id) === 2) {
-         ul.current.style.left = "-49.5%"
+         ul.current.style.left = "-48%"
       }
       else if (Number(id) === 3) {
-         ul.current.style.left = "-99.5%"
-
+         ul.current.style.left = "-95%"
       }
    }
 
